@@ -1,0 +1,66 @@
+
+html{
+    background:url(background.jpg);
+    background-size: cover;
+    text-align: left;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: x-large;
+    text-shadow: blueviolet 22px;
+}
+body{
+    margin-left: 20px;
+}
+button {
+    padding: 5px 10px;
+    border: none;
+    font-weight: bold;
+    width: 160px;
+}
+#git-link{
+    font-size: 30px;
+}
+#contact{
+    font-size: 30px;
+}
+#header{
+    margin-top: 150px;
+}
+#ünlem{
+    color: rgb(101, 148, 54);
+}
+a:link{
+    text-decoration: none;
+}
+#contact-form{
+    background: linear-gradient(to right,rgb(240, 236, 236),rgb(224, 224, 230));
+    width: 800px;
+}
+input[type=text], [type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 22px;
+}
+input[type=submit] {
+    width: 100%;
+    color: rgb(189, 108, 55);
+    font-weight: bold;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    background: linear-gradient(to right,rgb(243, 219, 219),rgb(215, 204, 223),rgb(243, 219, 219));
+    font-size: 22px;
+    border:none;
+  }
+  input[type=submit]:hover {
+    background: linear-gradient(to right,rgb(215, 204, 223),rgb(243, 219, 219),rgb(215, 204, 223));
+    font-size:x-large;
+    color: rgb(160, 154, 165);
+  }
+  
+  
